@@ -1,0 +1,15 @@
+@import './mixins';
+@import './variable';
+
+button,
+.button {
+  @include font(12, 400);
+  background: transparent;
+  border: 1px solid transparent;
+  cursor: pointer;
+  display: inline-block;
+  font-family: $global-font-family;
+  line-height: 20px;
+  min-height: 40px;
+  padding: 0 16px;
+}
