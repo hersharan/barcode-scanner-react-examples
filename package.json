@@ -1,5 +1,5 @@
 {
-  "name": "upc-scanner-react",
+  "name": "barcode-scanner-react",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
